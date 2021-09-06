@@ -1,0 +1,4 @@
+f = open('scrapetotal.html', 'r')
+message = f.read()
+print(message)
+f.close()
